@@ -1,0 +1,14 @@
+body{
+    background-color: #f4fbff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C2A32;
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+}
