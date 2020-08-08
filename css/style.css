@@ -63,6 +63,13 @@ main{
     border-radius: 50px;
     padding: 20px;
 }
+
+.container-type:hover{
+    box-shadow: 0 6px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    
+}
+
 .container-type figure{
     margin: 0;
 }
