@@ -77,6 +77,9 @@ main{
 .container-type.fire{
     background-color: firebrick;
 }
+main section span h2{
+    color: white;
+}
 .container-type.water{
     background-color: deepskyblue;
 }
