@@ -1,28 +1,95 @@
-body{
-    background-color: #f4fbff;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #424242;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
+.contenedor {
+    margin: auto;
+    width: 90%;
     background-color: #0C2A32;
-    color: white;
+    max-width: 1000px;
 }
 
-.menu ul{
-    list-style: none;
+header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu > ul > .menu-element {
-    display: inline-block;
-    align-items: flex-end;
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
 }
 
-.header-image {
-    height: 6em;
-    margin-left: 30%;
+header .menu a:hover {
+    color: #AEFFA8;
 }
 
-h1 {
-    color: blue;
+header .logo a img{
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+}
+
+main .pokedex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .pokedex .pokedex-card {
+    margin: 15px;
+    padding: 15px;
+    background-color: #D8D8D8;
+    opacity: 50%;
+    transition: 1s;
+}
+
+main .pokedex .pokedex-card .pokedex-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .pokedex .pokedex-card:hover {
+    opacity: 100%;
+}
+
+.tipos {
+    display: flex;
+    flex-direction: row;
+}
+
+.tipos a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 15px;
+    margin: 10px 5px;
+    border-radius: 10%;
+    font-size: 12px;
+}
+
+.tipos .tipos-veneno {
+    background-color: purple;
+}
+
+.tipos .tipos-planta {
+    background-color: green;
+}
+
+footer .author {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 15px;
 }
