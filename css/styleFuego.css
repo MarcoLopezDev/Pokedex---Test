@@ -1,0 +1,22 @@
+header{
+
+    width: auto;
+    height: 70px;
+    background-color: #0C2A32;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #f4fbff;
+}
+
+.header-image {
+    height: 6em;
+    margin-left: 30%;
+}
