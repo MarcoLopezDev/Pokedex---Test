@@ -2,27 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="pokemon, pokedex">
+    <meta name="description" content="Primer proyecto para el camino del fullstack.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POKEDEX - Tipo Planta</title>
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/stylePlanta.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="icon" href="https://imgur.com/a/a9LDKWN">
 </head>
 <body>
-    <header class="header">
-        <figure class="header-imageContainer">
-            <img src="https://i.imgur.com/UaoODan.png" alt="logo de pokemon" class="header-image">
-        </figure>
-        <nav class="menu">
-            <ul>
-                <li class="menu-element">Inicio</li>
-                <li class="menu-element">Pokedex</li>
-                <li class="menu-element">Comunidad</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        
-    </section>
+    <div class="contenedor">
+        <header>
+            <figure class="logo">
+                <a href="../index.html">
+                    <img src="https://img.uxfree.com/wp-content/uploads/2017/03/pokemon-logo-black-transparent.png" alt="Logo principal" height="70px">
+                </a>
+            </figure>
+            <nav class="menu">
+                <a href="/">Inicio</a>
+                <a href="#">Pokedex</a>
+                <a href="#">Comunidad</a>
+            </nav>
+        </header>
+        <main>
+            <section class="pokedex">
+                <!-- Pokemon No. 001-->
+                <article class="pokedex-card">
+                    <figure class="pokedex-image">
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="Imagen de bulbasaur">
+                    </figure>
+                    <div class="pokedex-info">
+                        <h4>Bulbasaur</h4>
+                        <h5>No. 001</h5>
+                        <div class="tipos">
+                            <a href="#" class="tipos-planta">Planta</a>
+                            <a href="#" class="tipos-veneno">Veneno</a>
+                        </div> 
+                    </div>
+                </article>
+
+                <!-- Pokemon No. 002-->
+                <article class="pokedex-card">
+                    <figure class="pokedex-image">
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt="Imagen de bulbasaur">
+                    </figure>
+                    <div class="pokedex-info">
+                        <h4>Ivysaur</h4>
+                        <h5>No. 002</h5>
+                        <div class="tipos">
+                            <a href="#" class="tipos-planta">Planta</a>
+                            <a href="#" class="tipos-veneno">Veneno</a>
+                        </div> 
+                    </div>
+                </article>
+
+                <!-- Pokemon No. 003-->
+                <article class="pokedex-card">
+                    <figure class="pokedex-image">
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt="Imagen de bulbasaur">
+                    </figure>
+                    <div class="pokedex-info">
+                        <h4>venusaur</h4>
+                        <h5>No. 003</h5>
+                        <div class="tipos">
+                            <a href="#" class="tipos-planta">Planta</a>
+                            <a href="#" class="tipos-veneno">Veneno</a>
+                        </div> 
+                    </div>     
+                </article>
+
+            </section>
+        </main>
+        <footer>
+            <div class="author">
+                <p>Created by Cesar - Daiki - Marco</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

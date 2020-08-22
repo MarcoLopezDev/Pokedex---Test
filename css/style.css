@@ -1,20 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body{
-    background-color: #f4fbff;
+    background-color: #E9E9E9;
 }
 
 header{
-
     width: auto;
     height: 70px;
     background-color: #0C2A32;
     display: flex;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-imageContainer {
+    margin-left: 40px;
 }
 
 nav{
@@ -26,48 +29,51 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
+    margin-right: 40px;
 }
 
 .menu ul a{
     margin-right: 15px;
     color: white;
-    text-decoration: none   ;
+    text-decoration: none;
 }
 
 .title-container{
     width: auto;
     height: 50px;
-    margin-bottom: 80px;
+    padding: 80px 0px;
 }
+
 .title-container h1{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    height: 50px;
+    font-size: 3em;
     margin: 0;
     padding: 0;
-    color: rebeccapurple;
 }
 
 main{
     width: auto;
-    height: 600px;
     display: flex;
     justify-content: space-around;
+    margin: 150px 0px;
 }
 
 .container-type{
     width: 260px;
     height: 260px;
-    border: 3px solid gray;
-    border-radius: 50px;
+    border-radius: 50%;
     padding: 20px;
+    box-shadow: 0 6px 6px 0 #20212447;
+    border-color: #dfe1e500; 
+    opacity: 60%;
+    transition: 1s;
 }
 
 .container-type:hover{
-    box-shadow: 0 6px 6px 0 #20212447;
-    border-color: #dfe1e500;
-    
+    opacity: 100%;
+    border-radius: 0%;
 }
 
 .container-type figure{
@@ -77,13 +83,13 @@ main{
 .container-type.fire{
     background-color: firebrick;
 }
+
 .container-type.water{
     background-color: deepskyblue;
 }
 .container-type.grass{
     background-color: darkgreen;
 }
-
 
 .image-type{
     margin: 0 auto;
@@ -94,7 +100,9 @@ main{
     justify-items: center;  
 }
 
-main span{
-    display: flex;
-    justify-content: center;
+footer {
+    text-align:center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Sacramento', cursive;
 }
